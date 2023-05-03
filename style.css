@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 10vh;
+  background-color: #042940;
+  align-items: center;
+}
+
+.header img {
+  width: 100px;
+}
+
+.NavBar {
+  display: flex;
+  gap: 30px;
+}
+
+.header a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #042940;
+  width: 100vw;
+  height: 90vh;
+}
+
+.FilmContent {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: gainsboro;
+  width: 80vw;
+  height: 80vh;
+  border-radius: 3vw;
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+  flex-basis: auto;
+}
+
+.TitleBox {
+  color: black;
+  margin-top: 30px;
+  align-self: flex-start;
+  position: absolute;
+  font-size: 26px;
+}
+
+.Card {
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
+  height: 250px;
+  justify-content: center;
+  background-color: aliceblue;
+  border-radius: 1vh;
+  border: #bbee81 2px solid;
+}
+
+.Card span {
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.registerContent {
+  gap: 20px;
+  flex-direction: column;
+  background-color: gainsboro;
+  border-radius: 1vh;
+  padding: 30px;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
